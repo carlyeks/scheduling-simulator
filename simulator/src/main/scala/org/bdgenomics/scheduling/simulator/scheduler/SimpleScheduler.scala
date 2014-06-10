@@ -1,6 +1,10 @@
-package org.bdgenomics.scheduling.simulator
+package org.bdgenomics.scheduling.simulator.scheduler
 
 import scala.collection.mutable
+import org.bdgenomics.scheduling.simulator._
+import org.bdgenomics.scheduling.simulator.Params
+import scala.Some
+import org.bdgenomics.scheduling.simulator.TaskDAG
 
 class SimpleScheduler(provisioner: Provisioner, params: Params, dag: TaskDAG) extends Scheduler {
   val scheduledTo = new mutable.HashMap[Resource, Task]()

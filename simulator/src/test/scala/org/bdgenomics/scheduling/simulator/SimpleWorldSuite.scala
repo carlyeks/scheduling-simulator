@@ -1,6 +1,7 @@
 package org.bdgenomics.scheduling.simulator
 
 import org.scalatest.FunSuite
+import org.bdgenomics.scheduling.simulator.scheduler.{SimpleScheduler, Scheduler, SchedulerFactory}
 
 class SimpleWorldSuite extends FunSuite {
   val simpleSchedulerFactory = new SchedulerFactory {

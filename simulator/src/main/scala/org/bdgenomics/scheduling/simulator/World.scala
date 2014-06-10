@@ -4,6 +4,7 @@ import org.bdgenomics.scheduling.simulator.events.{ResourceUnavailable, Resource
 import java.util.Random
 import scala.collection.mutable
 import scala.annotation.tailrec
+import org.bdgenomics.scheduling.simulator.scheduler.SchedulerFactory
 
 class World(dag: TaskDAG, seed: Long, params: Params, schedulerFactory: SchedulerFactory) {
   val event = new EventManager

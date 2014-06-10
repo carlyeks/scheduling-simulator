@@ -1,4 +1,6 @@
-package org.bdgenomics.scheduling.simulator
+package org.bdgenomics.scheduling.simulator.scheduler
+
+import org.bdgenomics.scheduling.simulator.{Resource, Job}
 
 trait Scheduler {
   def start()

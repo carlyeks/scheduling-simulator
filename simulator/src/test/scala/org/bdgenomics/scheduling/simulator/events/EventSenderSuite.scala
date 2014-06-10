@@ -1,7 +1,7 @@
 package org.bdgenomics.scheduling.simulator.events
 
 import org.scalatest.FunSuite
-import org.bdgenomics.scheduling.simulator.{Provisioner, Scheduler}
+import org.bdgenomics.scheduling.simulator.Provisioner
 
 class EventSenderSuite extends FunSuite {
   test("Event is queued") {

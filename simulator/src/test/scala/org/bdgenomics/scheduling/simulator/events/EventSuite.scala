@@ -1,7 +1,8 @@
 package org.bdgenomics.scheduling.simulator.events
 
 import org.scalatest.FunSuite
-import org.bdgenomics.scheduling.simulator.{Resource, Job, Scheduler, ResourceImpl}
+import org.bdgenomics.scheduling.simulator.{Resource, Job, ResourceImpl}
+import org.bdgenomics.scheduling.simulator.scheduler.Scheduler
 
 class EventSuite extends FunSuite {
   test("Events properly invoke notifications") {
